@@ -1,0 +1,61 @@
+package br.edu.principal; 
+
+  
+
+ public class Principal { 
+
+    public static void main(String [] args) { 
+
+         int a = 6; 
+
+     int b = 7; 
+
+         double c = 29.05; 
+
+         System.out.println("Pi vale:" + Math.PI); 
+
+     //Para definir PI, coloque " Math.PI ". 
+
+         System.out.println("O valor absoluto: " + Math.abs(a)); 
+
+         //Para dar um valor absoluto de um número, coloque " Math.abs ". 
+
+         System.out.println("O maior valor entre a e b: " + Math.max(a, b)); 
+
+         //Para que pegue o maior valor no código, coloque " Math.max ", onde o programa pegará o maior valor dessa operação. 
+
+         System.out.println("O menor valor entre: " + Math.min(a, b)); 
+
+         //Para que pegue o maior valor no códiigo, coloque " Math.min ", onde o programa pegará o menor valor dessa operação. 
+
+         System.out.println("A raiz quadrada de c:"+ Math.sqrt(c)); 
+
+         //Para que seja extraido a raiz de um número, coloque " Math.sqrt ", onde será tirada a raiz aproximada  ou exata. 
+
+         System.out.println("z arredondado para cima é:" + Math.ceil(c)); 
+
+         //Para que um número seja arredondado (como o caso de "c"), use " Math.ceil ".   
+
+         System.out.println("Número aleátorio gerado:" + Math.random()); 
+
+         //Para que um número aleatório seja gerado, use " Math.random, mas diferente dos outros comandos, não coloque nenhum valor dentro de "()" 
+
+         System.out.println("A hipotenusa de a e b é:" + Math.hypot(a, b)); 
+
+         //Para caucular a hipótenusa de um triângulo no programa, use "Math.hypot". 
+
+         System.out.println("O seno de 90° É: " + Math.sin(Math.PI/2)); 
+
+         //Para calcular o seno/cosseno/tangente de um numéro, use "Math.sin/cos/tan".  
+
+          
+
+          
+
+      
+
+    } 
+
+          
+
+    }
